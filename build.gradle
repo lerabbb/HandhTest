@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+mainClassName = 'org.example.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+run{
+    standardInput = System.in
+}
+sourceCompatibility = JavaVersion.VERSION_14
+targetCompatibility = JavaVersion.VERSION_14
